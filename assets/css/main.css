@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E5E5E5;;
+}
+
+a{
+    text-decoration: none;
+}
+
+h3{
+    font-size: 55px;
+}
+
+
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+    padding-top: 21px;
+
+    
+}
+
+.logo{
+    width:121px;
+    height: 61px;
+}
+.course__time{
+    display: flex;
+    margin-top: 100px;
+
+}
+.box{
+    display: flex;
+    gap: 8px;
+}
+.globe{
+    width: 22px;
+    height: 21px;
+    background-image: url(/assets/img/globe.png);
+}
+.watch{
+    width: 22px;
+    height: 21px;
+    background-image: url(/assets/img/img_135744.png);
+}
+.calendar{
+    width: 22px;
+    height: 21px;
+    background-image: url(/assets/img/calendar_2.png);
+}
+.online__course{
+    font-size: 20px;
+    width: 132px;
+  
+}
+.heading__box{
+    display: flex;
+    padding-top: 4px;
+    justify-content: space-between;
+}
+.heading{
+    width:628px ;
+    font-size: 80px;
+    font-weight: 700;
+  
+ 
+  
+}
+.heading__box p{
+  
+    width: 414px;
+    height: 62px;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 20px;
+}
+.heading__img{
+    position: relative;
+    width: 304px;
+    height: 356px;
+    z-index: 10;
+ 
+}
+.ellipse{
+width: 274px;
+height: 41px;
+margin-left: 20px;
+background-color: transparent;
+
+margin-top: -20px;
+}
+.quote{
+    width: 483px;
+    height: 200px;
+    background-color: #1E4681;
+    border-radius: 5px;
+    padding: 20px 27px;
+    margin-top: 50px;
+    margin-left: 435px;
+}
+.quote p{
+   
+    font-size: 25px;
+    line-height: 32.5px;
+    color: white;
+    font-weight: 400;
+   
+}
+.quote span{
+    display: block;
+ 
+    padding-top: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+   
+    text-align: right;
+   
+
+}
+
+.about__heading{
+     margin-top: 150px;
+}
+.about__box{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.about__box p{
+width:662px;
+height: 374px;
+font-size:24px;
+line-height: 36px;
+}
+.about__img{
+    position: relative;
+    z-index: 10;
+    width: 314px;
+    height: 315px;
+}
+.ellipse2{
+    width: 366px;
+    height: 59px;
+    margin-left: -15px;
+    margin-top: -30px;
+ 
+
+    
+}
+.about__lesson{
+    margin-top: 94px;
+    display: flex;
+    gap: 132px;
+    align-items: center;
+}
+.lesson__image{
+    position: relative;
+    width: 232px;
+    height: 203px;
+    z-index: 10;
+}
+.ellipse3{
+    width: 189px;
+    height: 32px;
+    margin-top: -20px;
+    margin-left: 35px;
+}
+.about__lessontime h3{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.5px;
+
+}
+.about__lessontime p{
+    padding-top: 5px;
+    width: 150px;
+    height: 39px;
+    font-size: 18px;
+   line-height: 23.4px;
+}
+.format__lessons{
+    width: 667px;
+    height: 93px;
+    margin-top:162px ;
+
+}
+.formatlesson__info{
+    display: flex;
+    margin-top: 89px;
+    gap: 122px;
+}
+.format__info h4{
+    font-size: 25px;
+    color: #1E4681;
+
+}
+.format__info p{
+    padding-top: 20px;
+    width:270px ;
+    font-size: 18px;
+    line-height: 23.4px;
+
+}
+.learning{
+    width: 667px;
+    height:93px ;
+    margin-top: 179px;
+}
+.learning__box{
+    margin-top: 21px;
+    width: 667px;
+    height: 374px; 
+}
+.learning__list{
+    padding-left:20px ;
+    width: 667px;
+    height: 374px;
+    font-size: 24px;
+    line-height: 36px;
+    inline-size: auto;
+   
+
+}
+.container__proqram{
+   max-width: 1440px;
+   margin:auto
+
+}
+.proqram__heading{
+    margin-top: 248px;
+    padding-left: 20px;
+}
+    .proqram__boxes{
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 37px;
+        padding-bottom: 100px;
+    }
+
+.proqram__box{
+    border-radius: 30px;
+    background-color: white;
+    width: 399px;
+    height: 328px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+}
+.proqram__box img{
+    width: 399px;
+    height: 160px;
+}
+.proqram__info{
+
+    padding-left:19px ;
+   
+}
+
+.proqram__info h4{
+
+font-size: 30px;
+font-weight: 700;
+line-height: 39px;
+}
+.proqram__info p {
+    font-size: 25px;
+    line-height: 32.5px;
+}
+.statistics{
+    background-color:#EFEFEF; 
+    padding-bottom: 111px;
+}
+.heading__statistics{
+    
+    margin-top: 91px;
+}
+.comment{
+    margin-top: 34px;
+    width: 791px;
+    padding: 40px;
+    height: 451px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+}
+.comment{
+    margin-top:70px;
+}
+.comment__content{
+    
+    width: 700px;
+    height: 203px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.user{
+    padding-top: 30px;
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+.user__img{
+    
+    width: 190px;
+    height: 169px;
+
+ 
+}
+.user__name h4{
+    width:353 ;
+    height: 59px;
+    font-size: 30px;
+
+}
+.user__account{
+    width:32px ;
+    height: 31px;
+    background-image: url(/assets/img/fb_2\ 1.png);
+}
+.course__price{
+    background-color: #9DC9C8;
+}
+.starting__course{
+    margin-top:179px ;
+}
+.price__heading{
+    margin-top:54px ;
+    font-size: 25px;
+    font-weight: 400;
+}
+.price{
+   font-size: 80px; 
+   font-weight: 400;
+}
+.startingcourse__about{
+    display: flex;
+    gap: 70px;
+    margin-top: 100px;
+}
+.course__quality{
+    margin-bottom:185px ;
+}
+.course__quality h5{
+    width: 294px;
+    height: 32px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25.35px;
+
+}
+.course__quality p{
+    margin-top:9px ;
+    width: 294px;
+    height: 70px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18.25px;
+}
+.footer{
+    background-color:black ;
+}
+.footer__heading{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.footer__logo{
+    width: 115;
+    height: 68px;
+   
+}
+.phone__logo{
+    width: 27px;
+    height: 27px;
+    background-image: url(/assets/img/phone_white.png);
+}
+.phone{
+    display: flex;
+    gap: 22px;
+}
+.phone p{
+    color: white;
+    font-size: 25px;
+}
+.email{
+    margin-top: 20px;
+    display: flex;
+    gap: 22px;
+    align-items: center;
+}
+.email__logo{
+    width: 27px;
+    height: 18px;
+    background-image: url(/assets/img/mail_white.png);
+}
+.email p{
+    color: white;
+    font-size:25px ;
+}
+.footer__menu{
+    display: flex;
+    gap: 25px;
+}
+.intagram__logo{
+    width:33px ;
+    height: 33px;
+    background-image: url(/assets/img/noroot\(4\).png);
+}
+.facebook__logo{
+    width:32px ;
+    height: 32px;
+    background-image:url(/assets/img/fb.png)
+}
+.vkontakte__logo{
+    width: 35px;
+    height: 35px;
+    background-image: url(/assets/img/25684\ 1.png);
+}
+.viber__logo{
+    width: 34px;
+    height: 34px;
+    background-image: url(/assets/img/noroot\(2\).png);
+}
+.synchronization{
+    display: block;
+    color: white;
+    margin-top: 146px;
+    margin-bottom: 23px;
+    width:230px ;
+    height: 40px;
+}
